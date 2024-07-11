@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator Project</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="calculator.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <div class="calculator">
+      <!--Screen-->
+      <div class="screen">
+        <div class="upper-screen">
+
+        </div>
+
+        <div class="current-screen">
+          0
+        </div>
+      </div>
+
+      <!--Btns greed-->
+      <div class="button-grid">
+        <!--1st row-->
+        <div class="first-row">
+          <button class="first" id="clear-button">CLEAR</button>
+          <button class="first" id="delete-button">DELETE</button>
+        </div>
+        <!--2nd row-->
+        <div class="row">
+          <button class="number">7</button>
+          <button class="number">8</button>
+          <button class="number">9</button>
+          <button class="special" id="divide-button">÷</button>
+        </div>
+        <!--3rd row-->
+        <div class="row">
+          <button class="number">4</button>
+          <button class="number">5</button>
+          <button class="number">6</button>
+          <button class="special" id="multiply-button">x</button>
+        </div>
+        <!--4th row-->
+        <div class="row">
+          <button class="number">1</button>
+          <button class="number">2</button>
+          <button class="number">3</button>
+          <button class="special" id="subtract-button">-</button>
+        </div>
+        <!--5th row-->
+        <div class="row">
+          <button class="number" id="dot-button">.</button>
+          <button class="number">0</button>
+          <button class="number" id="equal-button">=</button>
+          <button class="special" id="add-button">+</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
